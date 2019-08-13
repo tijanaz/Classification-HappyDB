@@ -1,0 +1,60 @@
+HappyDB
+
+Sakupljeni su podaci o srecnim trenucima ljudi kako bi se unapredilo razumevanje uzroka srece kod ljudi. Podaci su prikupljeni na osnovu sledecih pitanja: Sta Cas je danas urecilo?, Razmislite o proteklih 24h i prisetite se tri stvarna dogadjaja koji su vam se dogodili zbog kojih ste bili srecni. Ta tri srecna trenutka su zapisana u vidu jedne recenice.
+
+Tabela cleaned_hm.csv: 
+Ocisceni podaci dobijeni od 100 000 srecnih trenutaka, obavljena je provera pravopisa svih izjava i uklonjene su prazne i izjave koje su imale samo jednu rec.
+Recenice se nalaze u koloni original_hm, dok su ociscene u koloni cleaned_hm.
+Svaka izjava o srecnim trenucima je predstavljena svojim ID-em, u kolini hmid, takodje, i ID osobe koja je dala izjavu je zabelezen u koloni wid.
+U kolini reflection_period se nalazi vremenski okvir tokom kog su osobe razmatrale svoje srecne trenutke, ili tokom poslednjih 24h ili 3 meseca.
+Kolona modified, zatim num_sentence-broj recenica date izjave.
+ground_truth_category - prava kategorija
+predicted_category-predvidjene kategorije za klasifikaciju
+
+Tabela demographic.csv:
+Kolone su: wid- ID osobe koja je davala izjavu, njene godine, drazava stanovanja, pol, bracno stanje i da li imaju dece ili ne.
+
+#moguce obrade podataka
+koji popularni sportovi, filmovi, knjige, proizvodi, turisticke destinacije ljude cine srecnim?
+kakva su predvidjanja o godinama, bracnom statusu,roditeljstvu, drzavi i tome sta osobu cini srecnom?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
